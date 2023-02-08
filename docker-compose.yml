@@ -6,7 +6,7 @@ services:
     image: nginx:latest
     restart: unless-stopped
     ports:
-      - 8105:80
+      - 80
     volumes:
       - ./data:/var/www/html
       - ./data/public:/usr/share/nginx/html
